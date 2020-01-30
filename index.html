@@ -211,7 +211,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 						</header>
 						<div class="content">
 							<!--<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>-->
-							<form method="post" netlify action="#">
+							<form method="post" netlify action="#" data-netlify-recaptcha="true">
 								<div class="fields">
 									<div class="field half">
 										<label for="demo-name">Name</label>
@@ -245,10 +245,11 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 										<input type="radio" id="demo-priority-high" name="demo-priority">
 										<label for="demo-priority-high">High</label>
 									</div>
-									<div class="field half">
+									<div class="field half" data-netlify-recaptcha="true"></div>
+									<!--<div class="field half">
 										<input type="checkbox" id="demo-human" name="demo-human" checked>
 										<label for="demo-human">Not a robot</label>
-									</div>
+									</div>-->
 									<div class="field">
 										<label for="demo-message">Message</label>
 										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
