@@ -9,20 +9,20 @@
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body class="is-preload">
+			<div id="canvas"></div>
 			<div id="wrapper">
 				<section class="intro">
 					<header>
 						<h1>circular code</h1>
 						<p>software developer & web enthusiast by <i class="fa fa-heart"></i></p>
-						<ul class="actions">
+						<ul id="Category" class="actions">
 							<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 						</ul>
 					</header>
 					<div class="content">
-						<ul class="actions">
+						<ul id="cta" class="actions">
 							<li><a href="#contact" class="button primary">Get in touch</a></li>
 						</ul>
-						<span class="image fill" data-position="center"><img alt="asd" /></span>
 					</div>
 				</section>
 				<section id="first">
@@ -233,7 +233,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 											<option value="Other/Custom Project">Other/Custom Project</option>
 										</select>
 									</div>
-									<label>Priority</label>
+									<div class="field" style="margin-bottom: -20px;"> <label>Priority</label></div>
 									<div class="field third">
 										<input type="radio" id="demo-priority-low" name="demo-priority">
 										<label for="demo-priority-low">Low</label>
@@ -277,5 +277,11 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/circular-code/connectedDots@master/app.js"></script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					runAnimation(document.getElementById('canvas'), 3, 0.5, "rgba(0,0,0,0.5)", 0.1);
+				});
+			</script>
 	</body>
 </html>
