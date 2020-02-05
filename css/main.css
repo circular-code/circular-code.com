@@ -977,6 +977,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		position: relative;
+		z-index: 2;
 	}
 
 		ul.actions li {
@@ -1299,7 +1301,6 @@ input, select, textarea {
 
 			body #wrapper > section.intro > .content {
 				position: relative;
-				z-index: 2;
 				padding-top: 0rem;
 			}
 
