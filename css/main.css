@@ -1148,7 +1148,7 @@ input, select, textarea {
 			}
 
 			table tr td:nth-of-type(2n) {
-			    background: rgba(236, 236, 236, 0.15);
+			    background: rgba(236, 236, 236, 0.25);
 			}
 
 		table td {
