@@ -2059,3 +2059,19 @@ input, select, textarea {
 		display: block;
 		margin-top: 5px;
 	}
+
+        #services ul.alt {
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+	#services li {
+	    width: 19rem;
+	    border: none;
+	    margin: 10px;
+	    border: 1px solid #cccccc;
+	    padding: 2rem;
+	    border-radius: 5px;
+	    box-shadow: 5px 5px 6px -1px rgba(0,0,0,0.1);
+	}
