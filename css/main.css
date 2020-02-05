@@ -2075,3 +2075,19 @@ input, select, textarea {
 	    border-radius: 5px;
 	    box-shadow: 5px 5px 6px -1px rgba(0,0,0,0.1);
 	}
+	span.tier-badge {
+	    background: #02ad9f;
+	    padding: 3px 8px;
+	    border-radius: 3px;
+	    font-size: 14px;
+	    color: white;
+	}
+	span.tier-badge.blue {
+		background: #0051c1;
+	}
+	span.tier-badge.purple {
+		background: #9b00f5;
+	}
+	span.tier-badge.gold {
+	    background: #efbe0e;
+	}
