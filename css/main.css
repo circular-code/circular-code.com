@@ -91,7 +91,7 @@ input, select, textarea {
 
 	body #wrapper > section.intro > .content {
 		position: relative;
-		padding-top: 21rem;
+		padding-top: 22rem;
 	}
 
 	@-ms-viewport {
