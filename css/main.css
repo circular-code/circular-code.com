@@ -2070,7 +2070,7 @@ input, select, textarea {
 		line-height: normal;
 	}
 	#services .content img {
-		opacity: 0.7;
+		opacity: 0.5;
 	}
 	#services ul.alt {
 	    display: flex;
@@ -2082,11 +2082,10 @@ input, select, textarea {
 	    width: 19rem;
 	    border: none;
 	    margin: 10px;
-	    border: 1px solid #cccccc;
+	    border: 2px solid #e3e3e3;
 	    padding: 2rem;
 	    border-radius: 5px;
-		box-shadow: 5px 5px 6px -1px rgba(0,0,0,0.1);
-		text-align: center;
+	    text-align: center;
 	}
 
 	span.tier-badge {
