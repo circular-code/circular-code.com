@@ -1407,7 +1407,7 @@ input, select, textarea {
 			}
 
 				#wrapper section > header h2 {
-					margin: 0 0 2rem 0;
+					margin: 0 0 1rem 0;
 				}
 
 				#wrapper section > header h1 + p {
@@ -1605,6 +1605,10 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
+			body #wrapper > section.intro > .content {
+				padding-top: 10rem;
+			}
+
 		}
 
 		#wrapper > section:last-of-type > header:after {
@@ -1745,10 +1749,6 @@ input, select, textarea {
 					margin: 0;
 				}
 
-						#wrapper > section > header > * {
-							max-width: 25rem;
-						}
-
 						#wrapper > section > header > :last-child {
 							margin-bottom: 0;
 						}
@@ -1869,11 +1869,11 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header {
-					padding: 3rem 2rem;
+					padding: 3rem 2rem 1rem;
 				}
 
 				#wrapper > section > .content {
-					padding: 3rem 2rem;
+					padding: 0rem 2rem 2rem;
 				}
 
 					#wrapper > section > .content > section {
@@ -1905,7 +1905,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header {
-					padding: 2.25rem 1.5rem;
+					padding: 2.25rem 1.5rem 0rem;
 				}
 
 				#wrapper > section > .content {
@@ -2133,4 +2133,10 @@ input, select, textarea {
 	}
 	.font-purple {
 		color: #9b00f5;
+	}
+
+	@media screen and (max-width: 700px) {
+		#services li {
+			width: 100%;
+		}
 	}
