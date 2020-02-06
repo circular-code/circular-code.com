@@ -2043,6 +2043,11 @@ input, select, textarea {
 		vertical-align: top;
 	}
 
+	#Tools .img-container {
+		width: auto;
+		margin: 10px;
+	}
+
 	p.img-description {
 		width: calc(100% - 160px);
 		margin-bottom: 0;
