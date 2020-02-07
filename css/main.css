@@ -1167,7 +1167,7 @@ input, select, textarea {
 			font-size: 0.9rem;
 			font-weight: 600;
 			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
@@ -1185,6 +1185,7 @@ input, select, textarea {
 			table.alt tbody tr td {
 				border-left-width: 0;
 				border-top-width: 0;
+				text-align: center;
 			}
 
 				table.alt tbody tr td:first-child {
@@ -2085,7 +2086,8 @@ input, select, textarea {
 	    border: 2px solid #e3e3e3;
 	    padding: 2rem;
 	    border-radius: 5px;
-	    text-align: center;
+		text-align: center;
+		flex-grow: 1;
 	}
 
 	span.tier-badge {
