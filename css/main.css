@@ -2159,3 +2159,8 @@ input, select, textarea {
 			padding-right: 0;
 		}
 	}
+
+
+[data-highlight="true"] {
+	color: #44f2cb!important;
+}
