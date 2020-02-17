@@ -2057,14 +2057,15 @@ input, select, textarea {
 	}
 
 	#services .content p {
-		margin-bottom: 10px;
+		margin-bottom: 0;
 		line-height: normal;
+		font-size: 0.9rem;
 	}
 	#services .content h4 {
 		display: block;
 		margin-top: 5px;
-		margin: 10px;
-		font-size: 1rem;
+		margin: 0;
+		font-size: 0.8rem;
 		text-transform: uppercase;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
@@ -2072,6 +2073,7 @@ input, select, textarea {
 	}
 	#services .content img {
 		opacity: 0.5;
+		margin-right: 1rem;
 	}
 	#services ul.alt {
 	    display: flex;
@@ -2080,14 +2082,14 @@ input, select, textarea {
 	    margin-right: -10px;
 	}
 	#services li {
-	    width: 19rem;
-	    border: none;
 	    margin: 10px;
-	    border: 2px solid #e3e3e3;
-	    padding: 2rem;
-	    border-radius: 5px;
-		text-align: center;
+		border: 2px solid #e3e3e3;
+		padding: 1rem;
+		border-radius: 5px;
+		text-align: left;
 		flex-grow: 1;
+		display: flex;
+		width: 19rem;
 	}
 	a#servicesLink {
 	    background: white;
