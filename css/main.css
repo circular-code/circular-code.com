@@ -1260,7 +1260,7 @@ p.img-description {
 
 #services li {
 	margin: 10px;
-	border: 2px solid #e3e3e3;
+	border: none;
 	padding: 1rem;
 	border-radius: 5px;
 	text-align: left;
